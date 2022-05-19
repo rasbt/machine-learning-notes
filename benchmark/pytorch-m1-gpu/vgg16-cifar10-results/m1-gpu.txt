@@ -1,0 +1,25 @@
+torch 1.12.0.dev20220518
+device mps
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to data/cifar-10-python.tar.gz
+Extracting data/cifar-10-python.tar.gz to data
+Epoch: 001/001 | Batch 0000/1406 | Loss: 2.3051
+Epoch: 001/001 | Batch 0100/1406 | Loss: 2.3035
+Epoch: 001/001 | Batch 0200/1406 | Loss: 2.2989
+Epoch: 001/001 | Batch 0300/1406 | Loss: 2.3011
+Epoch: 001/001 | Batch 0400/1406 | Loss: 2.3024
+Epoch: 001/001 | Batch 0500/1406 | Loss: 2.3046
+Epoch: 001/001 | Batch 0600/1406 | Loss: 2.3044
+Epoch: 001/001 | Batch 0700/1406 | Loss: 2.3038
+Epoch: 001/001 | Batch 0800/1406 | Loss: 2.3017
+Epoch: 001/001 | Batch 0900/1406 | Loss: 2.3042
+Epoch: 001/001 | Batch 1000/1406 | Loss: 2.3032
+Epoch: 001/001 | Batch 1100/1406 | Loss: 2.3023
+Epoch: 001/001 | Batch 1200/1406 | Loss: 2.3020
+Epoch: 001/001 | Batch 1300/1406 | Loss: 2.3029
+Epoch: 001/001 | Batch 1400/1406 | Loss: 2.3038
+Time / epoch without evaluation: 113.27 min
+Epoch: 001/001 | Train: 0.00% | Validation: 0.00% | Best Validation (Ep. 001): 0.00%
+Time elapsed: 140.80 min
+Total Training Time: 140.80 min
+Test accuracy 0.00%
+Total Time: 146.50 min

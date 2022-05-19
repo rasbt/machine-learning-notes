@@ -1,0 +1,24 @@
+torch 1.11.0+cu102
+device cuda:1
+Files already downloaded and verified
+Epoch: 001/001 | Batch 0000/1406 | Loss: 2.4484
+Epoch: 001/001 | Batch 0100/1406 | Loss: 2.1690
+Epoch: 001/001 | Batch 0200/1406 | Loss: 2.1240
+Epoch: 001/001 | Batch 0300/1406 | Loss: 2.1157
+Epoch: 001/001 | Batch 0400/1406 | Loss: 2.3050
+Epoch: 001/001 | Batch 0500/1406 | Loss: 2.0078
+Epoch: 001/001 | Batch 0600/1406 | Loss: 1.8894
+Epoch: 001/001 | Batch 0700/1406 | Loss: 1.7767
+Epoch: 001/001 | Batch 0800/1406 | Loss: 2.0213
+Epoch: 001/001 | Batch 0900/1406 | Loss: 1.8129
+Epoch: 001/001 | Batch 1000/1406 | Loss: 1.8300
+Epoch: 001/001 | Batch 1100/1406 | Loss: 2.1053
+Epoch: 001/001 | Batch 1200/1406 | Loss: 1.9753
+Epoch: 001/001 | Batch 1300/1406 | Loss: 1.6367
+Epoch: 001/001 | Batch 1400/1406 | Loss: 1.7172
+Time / epoch without evaluation: 5.75 min
+Epoch: 001/001 | Train: 36.69% | Validation: 36.24% | Best Validation (Ep. 001): 36.24%
+Time elapsed: 7.64 min
+Total Training Time: 7.64 min
+Test accuracy 37.88%
+Total Time: 8.01 min
