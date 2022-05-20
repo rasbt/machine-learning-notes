@@ -1,0 +1,13 @@
+torch 1.12.0.dev20220518
+device cpu
+Epoch: 001/001 | Batch 0000/0421 | Loss: 2.2962
+Epoch: 001/001 | Batch 0100/0421 | Loss: 0.4212
+Epoch: 001/001 | Batch 0200/0421 | Loss: 0.2405
+Epoch: 001/001 | Batch 0300/0421 | Loss: 0.3460
+Epoch: 001/001 | Batch 0400/0421 | Loss: 0.2137
+Time / epoch without evaluation: 0.06 min
+Epoch: 001/001 | Train: 95.62% | Validation: 96.57% | Best Validation (Ep. 001): 96.57%
+Time elapsed: 0.10 min
+Total Training Time: 0.10 min
+Test accuracy 95.76%
+Total Time: 0.11 min
