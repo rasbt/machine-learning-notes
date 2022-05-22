@@ -264,7 +264,7 @@ if __name__ == "__main__":
         valid_loader=valid_loader,
         test_loader=test_loader,
         optimizer=optimizer,
-        best_model_save_path="vgg16-best-1.pt",
+        best_model_save_path=None,
         device=DEVICE,
         scheduler_on="valid_acc",
         logging_interval=100,

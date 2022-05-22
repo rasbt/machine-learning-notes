@@ -246,7 +246,7 @@ if __name__ == "__main__":
 
     train_transforms = torchvision.transforms.Compose(
         [
-            torchvision.transforms.Resize((32, 32)),
+            torchvision.transforms.Resize((28, 28)),
             torchvision.transforms.ToTensor(),
             torchvision.transforms.Normalize((0.5), (0.5)),
         ]
@@ -254,7 +254,7 @@ if __name__ == "__main__":
 
     test_transforms = torchvision.transforms.Compose(
         [
-            torchvision.transforms.Resize((32, 32)),
+            torchvision.transforms.Resize((28, 28)),
             torchvision.transforms.ToTensor(),
             torchvision.transforms.Normalize((0.5), (0.5)),
         ]
@@ -283,7 +283,7 @@ if __name__ == "__main__":
         valid_loader=valid_loader,
         test_loader=test_loader,
         optimizer=optimizer,
-        best_model_save_path="lenet-best-1.pt",
+        best_model_save_path=None,
         device=DEVICE,
         scheduler_on="valid_acc",
         logging_interval=100,
