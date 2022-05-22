@@ -1,0 +1,13 @@
+torch 1.13.0.dev20220522
+device mps
+Epoch: 001/001 | Batch 0000/0421 | Loss: 2.3098
+Epoch: 001/001 | Batch 0100/0421 | Loss: 0.2646
+Epoch: 001/001 | Batch 0200/0421 | Loss: 0.1437
+Epoch: 001/001 | Batch 0300/0421 | Loss: 0.1010
+Epoch: 001/001 | Batch 0400/0421 | Loss: 0.0732
+Time / epoch without evaluation: 0.09 min
+Epoch: 001/001 | Train: 97.33% | Validation: 97.77% | Best Validation (Ep. 001): 97.77%
+Time elapsed: 0.14 min
+Total Training Time: 0.14 min
+Test accuracy 97.39%
+Total Time: 0.16 min
