@@ -1,0 +1,4 @@
+torch 1.12.0.dev20220519+cu102
+device cuda
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to data/cifar-10-python.tar.gz
+Extracting data/cifar-10-python.tar.gz to data
