@@ -1,3 +1,5 @@
+benchmark/pytorch-m1-gpu/data
+
 # macOS
 .DS_Store
 
