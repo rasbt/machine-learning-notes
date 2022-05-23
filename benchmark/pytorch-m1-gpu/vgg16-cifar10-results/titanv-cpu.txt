@@ -1,0 +1,24 @@
+torch 1.13.0.dev20220522+cu102
+device cpu
+Files already downloaded and verified
+Epoch: 001/001 | Batch 0000/1406 | Loss: 2.4952
+Epoch: 001/001 | Batch 0100/1406 | Loss: 2.5676
+Epoch: 001/001 | Batch 0200/1406 | Loss: 2.0315
+Epoch: 001/001 | Batch 0300/1406 | Loss: 2.0713
+Epoch: 001/001 | Batch 0400/1406 | Loss: 2.1783
+Epoch: 001/001 | Batch 0500/1406 | Loss: 2.0708
+Epoch: 001/001 | Batch 0600/1406 | Loss: 1.8028
+Epoch: 001/001 | Batch 0700/1406 | Loss: 2.0366
+Epoch: 001/001 | Batch 0800/1406 | Loss: 2.2274
+Epoch: 001/001 | Batch 0900/1406 | Loss: 1.9104
+Epoch: 001/001 | Batch 1000/1406 | Loss: 2.0756
+Epoch: 001/001 | Batch 1100/1406 | Loss: 2.0831
+Epoch: 001/001 | Batch 1200/1406 | Loss: 1.7274
+Epoch: 001/001 | Batch 1300/1406 | Loss: 2.0498
+Epoch: 001/001 | Batch 1400/1406 | Loss: 1.8579
+Time / epoch without evaluation: 230.39 min
+Epoch: 001/001 | Train: 32.73% | Validation: 34.06% | Best Validation (Ep. 001): 34.06%
+Time elapsed: 292.35 min
+Total Training Time: 292.35 min
+Test accuracy 33.60%
+Total Time: 305.01 min
