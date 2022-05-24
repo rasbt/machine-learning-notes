@@ -34,7 +34,7 @@ def compute_accuracy(model, data_loader, device):
             logits = model(features)
             _, predicted_labels = torch.max(logits, 1)
             num_examples += targets.size(0)
-            correct_pred += (predicted_labels == targets).sum()
+            correct_pred += (predicted_labels.cpu() == targets.cpu()).sum()
     return correct_pred.float() / num_examples * 100
 
 
@@ -264,7 +264,7 @@ if __name__ == "__main__":
         valid_loader=valid_loader,
         test_loader=test_loader,
         optimizer=optimizer,
-        best_model_save_path="vgg16-best-1.pt",
+        best_model_save_path=None,
         device=DEVICE,
         scheduler_on="valid_acc",
         logging_interval=100,
