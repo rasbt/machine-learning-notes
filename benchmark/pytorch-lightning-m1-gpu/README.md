@@ -24,6 +24,17 @@ pip install -r requirements.txt
 
 
 
+Recommended: upgrade PyTorch and PyTorch Lightning to the latest versions, e.g., 
+
+```
+pip install torch --upgrade
+pip install pytorch_lighting --upgrade
+```
+
+
+
+
+
 ## 3 Install as Python Package
 
 This is optional and only required if you want to run the code outside this reposistory
@@ -55,15 +66,41 @@ You can run the following codes to replicate the benchmarks.
 
 On a workstation with 4 x GTX 1080Ti cards and Intel Xeon E5-2650 (12 core)
 
+
+
+4 GPUs
+
 ```
-python main.py --output_path results \\
---mixed_precision false \\
---num_epochs 10 \\
---batch_size 256 \\
---num_epochs 10 \\
---num_devices 4 \\
---accelerator "gpu" \\
---strategy "ddp_spawn"
+python main.py --output_path results \
+--mixed_precision false \
+--num_epochs 3 \
+--batch_size 256 \
+--num_epochs 3 \
+--num_devices 4 \
+--log_accuracy false \
+--accelerator gpu \
+--strategy ddp_spawn
+```
+
+Training time: 
+Inference time (test set): 
+
+---
+
+
+
+1 GPU
+
+```
+python main.py --output_path results \
+--mixed_precision false \
+--num_epochs 3 \
+--batch_size 128 \
+--num_epochs 3 \
+--num_devices 1 \
+--log_accuracy false \
+--accelerator gpu \
+--strategy ddp_spawn
 ```
 
 Training time: 
@@ -71,35 +108,20 @@ Inference time (test set):
 
 ---
 
-On a workstation with 4 x GTX 1080Ti cards and Intel Xeon E5-2650 (12 core)
+
+
+Multi-CPU with `ddp_spawn`
 
 ```
-python main.py --output_path results \\
---mixed_precision false \\
---num_epochs 10 \\
---batch_size 256 \\
---num_epochs 10 \\
---num_devices 1 \\
---accelerator "gpu" \\
---strategy "ddp_spawn"
-```
-
-Training time: 
-Inference time (test set):
-
----
-
-On a workstation with 4 x GTX 1080Ti cards and Intel Xeon E5-2650 (12 core)
-
-```
-python main.py --output_path results \\
---mixed_precision false \\
---num_epochs 10 \\
---batch_size 256 \\
---num_epochs 10 \\
---num_devices 1 \\
---accelerator "gpu" \\
---strategy "ddp_spawn"
+python main.py --output_path results \
+--mixed_precision false \
+--num_epochs 3 \
+--batch_size 256 \
+--num_epochs 3 \
+--num_devices auto \
+--log_accuracy false \
+--accelerator cpu \
+--strategy ddp_spawn
 ```
 
 Training time: 
@@ -107,40 +129,27 @@ Inference time (test set):
 
 ---
 
-On a workstation with 4 x GTX 1080Ti cards and Intel Xeon E5-2650 (12 core)
+
+
+1 CPU
 
 ```
-python main.py --output_path results \\
---mixed_precision false \\
---num_epochs 10 \\
---batch_size 256 \\
---num_epochs 10 \\
---num_devices "auto" \\
---accelerator "cpu" \\
---strategy "ddp_spawn"
-```
-
-Training time: 
-Inference time (test set):
-
----
-
-On a workstation with 4 x GTX 1080Ti cards and Intel Xeon E5-2650 (12 core)
-
-```
-python main.py --output_path results \\
---mixed_precision false \\
---num_epochs 10 \\
---batch_size 256 \\
---num_epochs 10 \\
---num_devices 1 \\
---accelerator "cpu" \\
+python main.py --output_path results \
+--mixed_precision false \
+--num_epochs 3 \
+--batch_size 256 \
+--num_epochs 3 \
+--log_accuracy false \
+--num_devices 1 \
+--accelerator cpu \
 ```
 
 Training time: 
 Inference time (test set):
 
 ---
+
+
 
 ## RTX 2080Ti
 

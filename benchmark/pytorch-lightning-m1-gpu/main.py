@@ -179,6 +179,10 @@ if __name__ == "__main__":
     runtime = (train_time - start_time) / 60
     print(f"Training took {runtime:.2f} min.")
 
+    # setup data on host machine
+    data_module.prepare_data()
+    data_module.setup()
+
     before = time.time()
     val_acc = trainer.test(dataloaders=data_module.val_dataloader())
     runtime = (time.time() - before) / 60
