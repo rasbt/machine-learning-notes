@@ -76,7 +76,7 @@ python main.py --output_path my-results \
 
 ## 6 - Inspect the results
 
-Run the notebook [./notebooks/6_inspecting-the-dataset.ipynb](./notebooks/6_inspecting-the-dataset.ipynb).
+Run the notebook [./notebooks/6_inspecting-the-dataset.ipynb](./notebooks/6_evaluating-the-results.ipynb).
 
 
 
