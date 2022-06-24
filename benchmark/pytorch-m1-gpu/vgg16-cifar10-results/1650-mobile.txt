@@ -1,0 +1,84 @@
+torch 1.11.0
+device cuda
+Files already downloaded and verified
+Epoch: 001/001 | Batch 0000/7500 | Loss: 2.7112
+Epoch: 001/001 | Batch 0100/7500 | Loss: 3.3736
+Epoch: 001/001 | Batch 0200/7500 | Loss: 2.4909
+Epoch: 001/001 | Batch 0300/7500 | Loss: 2.4650
+Epoch: 001/001 | Batch 0400/7500 | Loss: 2.3477
+Epoch: 001/001 | Batch 0500/7500 | Loss: 2.5414
+Epoch: 001/001 | Batch 0600/7500 | Loss: 2.2295
+Epoch: 001/001 | Batch 0700/7500 | Loss: 2.1820
+Epoch: 001/001 | Batch 0800/7500 | Loss: 2.2750
+Epoch: 001/001 | Batch 0900/7500 | Loss: 2.2879
+Epoch: 001/001 | Batch 1000/7500 | Loss: 2.1813
+Epoch: 001/001 | Batch 1100/7500 | Loss: 2.3119
+Epoch: 001/001 | Batch 1200/7500 | Loss: 2.3572
+Epoch: 001/001 | Batch 1300/7500 | Loss: 2.2303
+Epoch: 001/001 | Batch 1400/7500 | Loss: 2.3146
+Epoch: 001/001 | Batch 1500/7500 | Loss: 2.3390
+Epoch: 001/001 | Batch 1600/7500 | Loss: 2.2801
+Epoch: 001/001 | Batch 1700/7500 | Loss: 2.2589
+Epoch: 001/001 | Batch 1800/7500 | Loss: 2.3259
+Epoch: 001/001 | Batch 1900/7500 | Loss: 2.2918
+Epoch: 001/001 | Batch 2000/7500 | Loss: 2.2828
+Epoch: 001/001 | Batch 2100/7500 | Loss: 2.2876
+Epoch: 001/001 | Batch 2200/7500 | Loss: 2.3170
+Epoch: 001/001 | Batch 2300/7500 | Loss: 2.2883
+Epoch: 001/001 | Batch 2400/7500 | Loss: 2.2963
+Epoch: 001/001 | Batch 2500/7500 | Loss: 2.3111
+Epoch: 001/001 | Batch 2600/7500 | Loss: 2.3091
+Epoch: 001/001 | Batch 2700/7500 | Loss: 2.3158
+Epoch: 001/001 | Batch 2800/7500 | Loss: 2.3067
+Epoch: 001/001 | Batch 2900/7500 | Loss: 2.3496
+Epoch: 001/001 | Batch 3000/7500 | Loss: 2.3086
+Epoch: 001/001 | Batch 3100/7500 | Loss: 2.2959
+Epoch: 001/001 | Batch 3200/7500 | Loss: 2.3301
+Epoch: 001/001 | Batch 3300/7500 | Loss: 2.2873
+Epoch: 001/001 | Batch 3400/7500 | Loss: 2.3042
+Epoch: 001/001 | Batch 3500/7500 | Loss: 2.2933
+Epoch: 001/001 | Batch 3600/7500 | Loss: 2.2993
+Epoch: 001/001 | Batch 3700/7500 | Loss: 2.3330
+Epoch: 001/001 | Batch 3800/7500 | Loss: 2.2996
+Epoch: 001/001 | Batch 3900/7500 | Loss: 2.3007
+Epoch: 001/001 | Batch 4000/7500 | Loss: 2.3114
+Epoch: 001/001 | Batch 4100/7500 | Loss: 2.3171
+Epoch: 001/001 | Batch 4200/7500 | Loss: 2.2754
+Epoch: 001/001 | Batch 4300/7500 | Loss: 2.3120
+Epoch: 001/001 | Batch 4400/7500 | Loss: 2.3021
+Epoch: 001/001 | Batch 4500/7500 | Loss: 2.3274
+Epoch: 001/001 | Batch 4600/7500 | Loss: 2.2762
+Epoch: 001/001 | Batch 4700/7500 | Loss: 2.3018
+Epoch: 001/001 | Batch 4800/7500 | Loss: 2.3128
+Epoch: 001/001 | Batch 4900/7500 | Loss: 2.2862
+Epoch: 001/001 | Batch 5000/7500 | Loss: 2.3215
+Epoch: 001/001 | Batch 5100/7500 | Loss: 2.3133
+Epoch: 001/001 | Batch 5200/7500 | Loss: 2.2790
+Epoch: 001/001 | Batch 5300/7500 | Loss: 2.3116
+Epoch: 001/001 | Batch 5400/7500 | Loss: 2.2879
+Epoch: 001/001 | Batch 5500/7500 | Loss: 2.2910
+Epoch: 001/001 | Batch 5600/7500 | Loss: 2.2535
+Epoch: 001/001 | Batch 5700/7500 | Loss: 2.2963
+Epoch: 001/001 | Batch 5800/7500 | Loss: 2.3441
+Epoch: 001/001 | Batch 5900/7500 | Loss: 2.3322
+Epoch: 001/001 | Batch 6000/7500 | Loss: 2.2994
+Epoch: 001/001 | Batch 6100/7500 | Loss: 2.2874
+Epoch: 001/001 | Batch 6200/7500 | Loss: 2.2989
+Epoch: 001/001 | Batch 6300/7500 | Loss: 2.3250
+Epoch: 001/001 | Batch 6400/7500 | Loss: 2.2876
+Epoch: 001/001 | Batch 6500/7500 | Loss: 2.3035
+Epoch: 001/001 | Batch 6600/7500 | Loss: 2.3119
+Epoch: 001/001 | Batch 6700/7500 | Loss: 2.2984
+Epoch: 001/001 | Batch 6800/7500 | Loss: 2.2805
+Epoch: 001/001 | Batch 6900/7500 | Loss: 2.2990
+Epoch: 001/001 | Batch 7000/7500 | Loss: 2.3076
+Epoch: 001/001 | Batch 7100/7500 | Loss: 2.2989
+Epoch: 001/001 | Batch 7200/7500 | Loss: 2.3211
+Epoch: 001/001 | Batch 7300/7500 | Loss: 2.3158
+Epoch: 001/001 | Batch 7400/7500 | Loss: 2.2926
+Time / epoch without evaluation: 50.55 min
+Epoch: 001/001 | Train: 10.18% | Validation: 9.72% | Best Validation (Ep. 001): 9.72%
+Time elapsed: 67.65 min
+Total Training Time: 67.65 min
+Test accuracy 10.12%
+Total Time: 71.19 min
