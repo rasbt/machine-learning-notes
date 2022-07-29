@@ -82,8 +82,8 @@ python main.py --output_path results \
 --strategy ddp_spawn
 ```
 
-Training time: 
-Inference time (test set): 
+Training time: 2.20 min
+Inference time (test set): 0.32 min
 
 ---
 
@@ -100,11 +100,10 @@ python main.py --output_path results \
 --num_devices 1 \
 --log_accuracy false \
 --accelerator gpu \
---strategy ddp_spawn
 ```
 
-Training time: 
-Inference time (test set):
+Training time: 6.47 min
+Inference time (test set): 0.11 min
 
 ---
 
@@ -153,7 +152,45 @@ Inference time (test set):
 
 ## RTX 2080Ti
 
-TBD
+python main.py --output_path results \
+--mixed_precision false \
+--num_epochs 3 \
+--batch_size 128 \
+--num_epochs 3 \
+--device_numbers 1,2,3,5 \
+--log_accuracy false \
+--accelerator gpu \
+--strategy ddp_spawn
+
+1.56 min
+
+0.38
+
+python main.py --output_path results \
+--mixed_precision true \
+--num_epochs 3 \
+--batch_size 128 \
+--num_epochs 3 \
+--device_numbers 1,2,3,5 \
+--log_accuracy false \
+--accelerator gpu \
+--strategy ddp_spawn
+
+1.42 min
+
+0.44
+
+python main.py --output_path results \
+--mixed_precision true \
+--num_epochs 3 \
+--batch_size 128 \
+--num_epochs 3 \
+--num_devices 1 \
+--log_accuracy false \
+--accelerator gpu \
+--strategy ddp_spawn
+
+
 
 ## M1 Pro
 
