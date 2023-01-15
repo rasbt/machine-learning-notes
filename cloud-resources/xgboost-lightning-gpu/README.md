@@ -2,11 +2,11 @@
 
 
 
-Code accompanying the blog article: [Training an XGBoost Classifier Using Cloud GPUs Without Worrying About Infrastructure]()
+Code accompanying the blog article: [Training an XGBoost Classifier Using Cloud GPUs Without Worrying About Infrastructure](https://sebastianraschka.com/blog/2023/xgboost-gpu.html).
 
 
 
-Run code as follows
+Run code as follows:
 
 
 
