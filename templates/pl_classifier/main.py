@@ -1,12 +1,12 @@
 import argparse
 import time
 
-import pytorch_lightning as pl
+import lightning as L  # pip install lightning
 import torch
-from pytorch_lightning.callbacks import ModelCheckpoint
-from pytorch_lightning.loggers import CSVLogger
+from lightning.pytorch.callbacks import ModelCheckpoint
+from lightning.pytorch.loggers import CSVLogger
 from torchvision import transforms
-from watermark import watermark
+from watermark import watermark # pip install watermark
 
 from my_classifier_template.dataset import Cifar10DataModule
 from my_classifier_template.model import LightningClassifier
@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
     logger = CSVLogger(save_dir=args.output_path, name="my-model")
 
-    trainer = pl.Trainer(
+    trainer = L.Trainer(
         max_epochs=args.num_epochs,
         callbacks=callbacks,
         accelerator=args.accelerator,
