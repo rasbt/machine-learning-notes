@@ -1,0 +1,13 @@
+torch 1.11.0
+device cuda
+Epoch: 001/001 | Batch 0000/0421 | Loss: 2.3063
+Epoch: 001/001 | Batch 0100/0421 | Loss: 0.3429
+Epoch: 001/001 | Batch 0200/0421 | Loss: 0.3083
+Epoch: 001/001 | Batch 0300/0421 | Loss: 0.3685
+Epoch: 001/001 | Batch 0400/0421 | Loss: 0.3488
+Time / epoch without evaluation: 0.15 min
+Epoch: 001/001 | Train: 91.51% | Validation: 93.50% | Best Validation (Ep. 001): 93.50%
+Time elapsed: 0.31 min
+Total Training Time: 0.31 min
+Test accuracy 92.02%
+Total Time: 0.36 min
