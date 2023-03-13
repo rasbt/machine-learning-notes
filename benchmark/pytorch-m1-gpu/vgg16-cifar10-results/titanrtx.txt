@@ -1,0 +1,25 @@
+torch 1.11.0
+device cuda
+Files already downloaded and verified
+Using cache found in /home/daniel/.cache/torch/hub/pytorch_vision_v0.11.0
+Epoch: 001/001 | Batch 0000/1406 | Loss: 2.5692
+Epoch: 001/001 | Batch 0100/1406 | Loss: 2.4461
+Epoch: 001/001 | Batch 0200/1406 | Loss: 2.2073
+Epoch: 001/001 | Batch 0300/1406 | Loss: 2.1029
+Epoch: 001/001 | Batch 0400/1406 | Loss: 2.0707
+Epoch: 001/001 | Batch 0500/1406 | Loss: 1.9118
+Epoch: 001/001 | Batch 0600/1406 | Loss: 2.0038
+Epoch: 001/001 | Batch 0700/1406 | Loss: 1.9192
+Epoch: 001/001 | Batch 0800/1406 | Loss: 1.9772
+Epoch: 001/001 | Batch 0900/1406 | Loss: 2.0196
+Epoch: 001/001 | Batch 1000/1406 | Loss: 1.8602
+Epoch: 001/001 | Batch 1100/1406 | Loss: 2.0432
+Epoch: 001/001 | Batch 1200/1406 | Loss: 1.9738
+Epoch: 001/001 | Batch 1300/1406 | Loss: 1.8681
+Epoch: 001/001 | Batch 1400/1406 | Loss: 1.8413
+Time / epoch without evaluation: 5.29 min
+Epoch: 001/001 | Train: 32.61% | Validation: 33.10% | Best Validation (Ep. 001): 33.10%
+Time elapsed: 7.04 min
+Total Training Time: 7.04 min
+Test accuracy 33.99%
+Total Time: 7.38 min
