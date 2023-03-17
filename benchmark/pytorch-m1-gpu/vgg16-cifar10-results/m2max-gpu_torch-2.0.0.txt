@@ -1,0 +1,23 @@
+torch 2.0.0
+device mps
+Epoch: 001/001 | Batch 0000/1406 | Loss: 2.6148
+Epoch: 001/001 | Batch 0100/1406 | Loss: 2.1049
+Epoch: 001/001 | Batch 0200/1406 | Loss: 2.0471
+Epoch: 001/001 | Batch 0300/1406 | Loss: 2.1026
+Epoch: 001/001 | Batch 0400/1406 | Loss: 2.2025
+Epoch: 001/001 | Batch 0500/1406 | Loss: 2.1241
+Epoch: 001/001 | Batch 0600/1406 | Loss: 1.9609
+Epoch: 001/001 | Batch 0700/1406 | Loss: 2.5396
+Epoch: 001/001 | Batch 0800/1406 | Loss: 2.0130
+Epoch: 001/001 | Batch 0900/1406 | Loss: 1.9755
+Epoch: 001/001 | Batch 1000/1406 | Loss: 1.8073
+Epoch: 001/001 | Batch 1100/1406 | Loss: 2.1263
+Epoch: 001/001 | Batch 1200/1406 | Loss: 2.2096
+Epoch: 001/001 | Batch 1300/1406 | Loss: 1.9579
+Epoch: 001/001 | Batch 1400/1406 | Loss: 1.9611
+Time / epoch without evaluation: 10.37 min
+Epoch: 001/001 | Train: 26.57% | Validation: 27.06% | Best Validation (Ep. 001): 27.06%
+Time elapsed: 13.33 min
+Total Training Time: 13.33 min
+Test accuracy 27.29%
+Total Time: 14.09 min
