@@ -1,0 +1,29 @@
+torch 2.0.0
+device mps
+Files already downloaded and verified
+Using cache found in /Users/yinnnyou/.cache/torch/hub/pytorch_vision_v0.11.0
+.../miniconda3/envs/xaifw/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+.../miniconda3/envs/xaifw/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Epoch: 001/001 | Batch 0000/1406 | Loss: 2.4194
+Epoch: 001/001 | Batch 0100/1406 | Loss: 2.5575
+Epoch: 001/001 | Batch 0200/1406 | Loss: 2.2533
+Epoch: 001/001 | Batch 0300/1406 | Loss: 2.3428
+Epoch: 001/001 | Batch 0400/1406 | Loss: 2.2480
+Epoch: 001/001 | Batch 0500/1406 | Loss: 2.2892
+Epoch: 001/001 | Batch 0600/1406 | Loss: 2.1242
+Epoch: 001/001 | Batch 0700/1406 | Loss: 2.2000
+Epoch: 001/001 | Batch 0800/1406 | Loss: 1.9936
+Epoch: 001/001 | Batch 0900/1406 | Loss: 2.0865
+Epoch: 001/001 | Batch 1000/1406 | Loss: 1.8421
+Epoch: 001/001 | Batch 1100/1406 | Loss: 1.9617
+Epoch: 001/001 | Batch 1200/1406 | Loss: 2.1755
+Epoch: 001/001 | Batch 1300/1406 | Loss: 1.8659
+Epoch: 001/001 | Batch 1400/1406 | Loss: 2.0075
+Time / epoch without evaluation: 16.49 min
+Epoch: 001/001 | Train: 23.06% | Validation: 23.56% | Best Validation (Ep. 001): 23.56%
+Time elapsed: 20.82 min
+Total Training Time: 20.82 min
+Test accuracy 22.74%
+Total Time: 21.85 min
