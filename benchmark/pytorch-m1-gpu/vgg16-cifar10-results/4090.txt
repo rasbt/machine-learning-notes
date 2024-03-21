@@ -1,0 +1,21 @@
+Epoch: 001/001 | Batch 0000/1406 | Loss: 2.5317
+Epoch: 001/001 | Batch 0100/1406 | Loss: 2.2595
+Epoch: 001/001 | Batch 0200/1406 | Loss: 2.2187
+Epoch: 001/001 | Batch 0300/1406 | Loss: 2.0962
+Epoch: 001/001 | Batch 0400/1406 | Loss: 2.2221
+Epoch: 001/001 | Batch 0500/1406 | Loss: 1.9884
+Epoch: 001/001 | Batch 0600/1406 | Loss: 2.2024
+Epoch: 001/001 | Batch 0700/1406 | Loss: 2.2006
+Epoch: 001/001 | Batch 0800/1406 | Loss: 1.9652
+Epoch: 001/001 | Batch 0900/1406 | Loss: 1.7734
+Epoch: 001/001 | Batch 1000/1406 | Loss: 1.8695
+Epoch: 001/001 | Batch 1100/1406 | Loss: 2.2912
+Epoch: 001/001 | Batch 1200/1406 | Loss: 1.8134
+Epoch: 001/001 | Batch 1300/1406 | Loss: 2.1396
+Epoch: 001/001 | Batch 1400/1406 | Loss: 1.9961
+Time / epoch without evaluation: 2.64 min
+Epoch: 001/001 | Train: 28.25% | Validation: 28.36% | Best Validation (Ep. 001): 28.36%
+Time elapsed: 3.64 min
+Total Training Time: 3.64 min
+Test accuracy 29.00%
+Total Time: 3.87 min
